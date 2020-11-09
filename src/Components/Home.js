@@ -6,10 +6,9 @@ function Home(){
         <div className="home-wrapper">
           <img
             className="home-image"
-            src="Pizza.jpg"
+            src={ require('./Pizza.jpg') }
             alt=""
           />
-          <button className="order-button">Order Now!</button>
         </div>
       );
 
